@@ -54,3 +54,14 @@ config = {
 Execute os scripts Python para buscar dados e transmiti-los para o Kafka.
 Configure o ksqlDB para processar os dados recebidos e acionar notificações.
 Execute o bot do Telegram para receber notificações ao vivo.
+
+
+![image](https://github.com/marcosmanfre/kafka_python/assets/76493851/900b4fdd-352e-46e6-8b32-2ad0e96a77a4)
+
+![image](https://github.com/marcosmanfre/kafka_python/assets/76493851/f9000a58-6179-4faf-9c26-6c1384bc4750)
+
+![image](https://github.com/marcosmanfre/kafka_python/assets/76493851/31b1f7bf-d223-4900-8d0a-45b915b89789)
+
+![image](https://github.com/marcosmanfre/kafka_python/assets/76493851/8bb3d788-95a6-4eaf-9a43-ad866e3923c8)
+
+
