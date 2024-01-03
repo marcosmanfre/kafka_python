@@ -27,13 +27,13 @@ Neste episódio do Coding in Motion, Kris Jenkins demonstra como transformar uma
 - ksqlDB
 - Chave de API do bot do Telegram
 
-## Instalação:
+### Instalação:
 Clone este repositório.
 
-## Configuração:
+### Configuração:
 Configure as chaves de API necessárias para o YouTube e o Telegram no arquivo de configuração.
 
-## Execução da Solução:
+### Execução da Solução:
 Execute os scripts Python para buscar dados e transmiti-los para o Kafka.
 Configure o ksqlDB para processar os dados recebidos e acionar notificações.
 Execute o bot do Telegram para receber notificações ao vivo.
