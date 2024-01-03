@@ -33,6 +33,7 @@ Clone este repositório.
 ### Configuração:
 Configure as chaves de API necessárias para o YouTube e o Telegram no arquivo de configuração.
 
+````python
 config = {
     "google_api_key": "*****",
     "youtube_playlist_id": "*****",
@@ -48,7 +49,7 @@ config = {
             "basic.auth.user.info": "*****",
         }
     }
-
+````
 ### Execução da Solução:
 Execute os scripts Python para buscar dados e transmiti-los para o Kafka.
 Configure o ksqlDB para processar os dados recebidos e acionar notificações.
