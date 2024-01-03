@@ -33,6 +33,22 @@ Clone este repositório.
 ### Configuração:
 Configure as chaves de API necessárias para o YouTube e o Telegram no arquivo de configuração.
 
+config = {
+    "google_api_key": "*****",
+    "youtube_playlist_id": "*****",
+      "kafka": {
+            "bootstrap.servers": "*****",
+            "security.protocol": "sasl_ssl",
+            "sasl.mechanism": "PLAIN",
+            "sasl.username": "*****",
+            "sasl.password": "*****",
+        },
+        "schema_registry": {
+            "url": "*****",
+            "basic.auth.user.info": "*****",
+        }
+    }
+
 ### Execução da Solução:
 Execute os scripts Python para buscar dados e transmiti-los para o Kafka.
 Configure o ksqlDB para processar os dados recebidos e acionar notificações.
